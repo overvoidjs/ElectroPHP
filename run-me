@@ -14,12 +14,17 @@ showHelp(){
 
 init(){
 npm install
+sudo npm install -g electron-packager --save-dev
 sudo npm install electron-packager -g
 npm start
 }
 
 win32(){
 electron-packager . winElectroPHP --platform=win32
+}
+
+linux(){
+electron-packager . winElectroPHP --platform=linux
 }
 
 

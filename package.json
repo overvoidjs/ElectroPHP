@@ -1,7 +1,7 @@
 {
-  "name": "ELECTRON4PHP",
+  "name": "ElectroPHP",
   "version": "1.0.0",
-  "description": "An easiest way to use php in electron",
+  "description": "Electron+PHP => десктопное приложение на PHP",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -9,14 +9,15 @@
     "package-win": "electron-packager . electron-tutorial-app --overwrite --no-asar --platform=win32 --arch=ia32 --icon=icons/logo.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
     "package-linux": "electron-packager . electron-tutorial-app --overwrite --no-asar --platform=linux --arch=x64 --icon=icons/logo.png --prune=true --out=release-builds"
   },
-  "repository": "https://github.com/AJ-TechSoul/ELECTRON-4-PHP",
+  "repository": "https://github.com/overvoidjs/ElectroPHP",
   "keywords": [
     "Electron",
     "php",
-    "techsoul"
+    "ElectroPHP",
+    "Overvoidjs"
   ],
-  "author": "Ajay Kumar",
-  "license": "CC0-1.0",
+  "author": "Overvoid",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^1.7.12",
     "electron-packager": "^11.0.1"

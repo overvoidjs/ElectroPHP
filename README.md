@@ -22,10 +22,10 @@ npm start
 
 ## Для использования Вам понадобиться установленный NPM и GIT
 
--[Git](https://git-scm.com)
--[Node.js](https://nodejs.org/en/download/)
+*[Git](https://git-scm.com)
+*[Node.js](https://nodejs.org/en/download/)
 or
--[npm](http://npmjs.com)
+*[npm](http://npmjs.com)
 
 
 

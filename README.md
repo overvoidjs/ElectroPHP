@@ -1,8 +1,13 @@
 # ElectroPHP
 
 **Быстрый старт ElectroPHP.**
+
+запустите ./run-me
+
+или
+
 ```
-https://github.com/overvoidjs/ElectroPHP.git
+git clone https://github.com/overvoidjs/ElectroPHP.git
 cd ElectroPHP
 npm install
 npm start

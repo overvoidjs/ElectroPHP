@@ -1,6 +1,30 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-git clone https://github.com/overvoidjs/ElectroPHP.git
-cd ElectroPHP
+# имя функции для запуска
+FUNCTION=
+if [ ! -z $1 ]; then
+    FUNCTION="$1"
+fi
+
+showHelp(){
+  echo -e "init - установка и 1 запуск"
+  echo -e "win32 - собрать win приложение"
+  echo -e ""
+}
+
+init(){
 npm install
+sudo npm install electron-packager -g
 npm start
+}
+
+win32(){
+electron-packager . winElectroPHP --platform=win32
+}
+
+
+   if [ ! -z $(type -t $FUNCTION | grep function) ]; then
+        $1
+    else
+        showHelp
+fi

@@ -17,6 +17,7 @@ npm start
 
 -  `Linux` - electron-packager . nameElectroPHP --platform=linux **Сборка: успех**
 -  `Win` - electron-packager . winElectroPHP --platform=win32 **Сборка: провал**
+-  `Mac` - electron-packager . macElectroPHP --platform=darwin **Сборка: не проверял**
 
 P.S. 
 

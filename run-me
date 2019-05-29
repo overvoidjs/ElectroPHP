@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git clone https://github.com/overvoidjs/ElectroPHP.git
+cd ElectroPHP
+npm install
+npm start

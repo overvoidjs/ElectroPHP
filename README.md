@@ -1,9 +1,9 @@
 # ElectroPHP
 
 **Быстрый старт ElectroPHP.**
-
+```
 запустите ./run-me
-
+```
 или
 
 ```
@@ -12,6 +12,14 @@ cd ElectroPHP
 npm install
 npm start
 ```
+
+## Билд-приложения: ##
+
+-  `Linux` - electron-packager . nameElectroPHP --platform=linux **Сборка: успех**
+-  `Win` - electron-packager . winElectroPHP --platform=win32 **Сборка: провал**
+
+P.S. 
+
 
 ## Для использования ElectroPHP нужно всего 3 файла: ##
 

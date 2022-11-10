@@ -20,7 +20,7 @@
   "author": "Overvoid",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^7.2.4",
+    "electron": "^18.3.7",
     "electron-packager": "^11.0.1"
   },
   "dependencies": {
